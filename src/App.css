@@ -163,9 +163,23 @@ section {
 	justify-content: center;
 	background:
 		linear-gradient(rgba(17, 15, 14, 0.55), rgba(17, 15, 14, 0.55)),
-		url('/image/lego1.png') center/cover no-repeat;
+		url('/image/lego1.PNG') center/cover no-repeat;
 	text-align: center;
 }
+
+/* .hero {
+	min-height: 50vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image:
+		linear-gradient(rgba(17, 15, 14, 0.55), rgba(17, 15, 14, 0.55)),
+		url('/image/lego1.PNG');
+	background-size: cover, cover;
+	background-repeat: no-repeat;
+	text-align: center;
+} */
 
 .hero-overlay {
 	position: absolute;
