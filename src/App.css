@@ -163,7 +163,7 @@ section {
 	justify-content: center;
 	background:
 		linear-gradient(rgba(17, 15, 14, 0.55), rgba(17, 15, 14, 0.55)),
-		url('./img/IMG_6419.AVIF') center/cover no-repeat;
+		url('../public/image/lego1.png') center/cover no-repeat;
 	text-align: center;
 }
 
@@ -1042,29 +1042,49 @@ footer {
 	}
 	.hero {
 		min-height: 50vh;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-image:
+			linear-gradient(rgba(17, 15, 14, 0.55), rgba(17, 15, 14, 0.55)),
+			url('/image/ank-hero.jpeg');
+		background-position:
+			center,
+			85% center;
+		background-size: cover, cover;
+		background-repeat: no-repeat;
+		text-align: center;
 	}
 	.hero-content {
 		max-width: 600px;
 		padding: 20px;
+		margin-right: 75px;
 	}
 	.tagline {
 		margin-bottom: 30px;
+		margin-right: 75px;
 	}
 	.hero h2 {
-		font-size: 25px;
+		font-size: 20px;
+		max-width: 200px;
 		line-height: 1.02;
 		margin-bottom: 25px;
 	}
 	.hero-text {
-		max-width: 600px;
+		max-width: 300px;
 		margin: 0 auto 20px;
 		font-size: 14px;
 		margin-top: 15px;
+		font-weight: 600;
+		color: rgb(161, 161, 161);
+		margin-right: 75px;
 	}
 	.hero-btn {
 		border-radius: 30px;
 		font-weight: 700;
 		padding: 10px 15px;
+		margin-right: 75px;
 	}
 	.category-grid {
 		grid-template-columns: repeat(2, minmax(100px, 1fr));
