@@ -1,16 +1,54 @@
-# React + Vite
+# Ankara Fashion - Mini E-Commerce App v1
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Ankara Fashion is a responsive, frontend e-commerce web application built for browsing and purchasing modern women's fashion dresses. This project was engineered to demonstrate core frontend architecture, state management, and component reuse within a modern JavaScript framework.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Check out the live deployment here: [Ankara Fashion Live Link](https://vercel.app)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Dynamic Product Catalog:** Users can browse through a curated collection of Ankara dresses.
+- **Live Search Functionality:** Filter clothing items instantly based on user input queries.
+- **Interactive Cart Lifecycle:** Add, track, and update product items seamlessly inside a global state.
+- **Authentication Modal Structure:** Toggle seamlessly between login and signup interfaces with responsive state checks.
+- **Responsive Layout:** Designed with a mobile-first approach, fully optimized for both desktop and mobile viewports.
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Framework:** React.js
+- **Build Tool:** Vite
+- **Styling:** Custom CSS3 (with responsive Media Queries)
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
+
+## 🧠 What I Learned (From Vanilla JS to React Sprint)
+
+This project initially started as a vanilla JavaScript application. To meet professional requirements, I undertook a rigorous few days sprint to completely re-architect the entire codebase into the React framework.
+
+Key growth areas during this development cycle included:
+
+- Mastering functional state management using `useState` to bridge data communication between sibling components (Navbar, AuthModal, and App).
+- Handling responsive asset compilation pipelines for production servers (resolving root directory changes on Vercel deployments).
+- Designing conditional rendering flows to safely toggle complex interactive UI modals.
+
+## ⚙️ Local Setup Instructions
+
+To run this project locally on your machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com
+   ```
+2. Navigate into the project folder:
+   ```bash
+   cd Ankara-fashion-v1
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the local development server:
+   ```bash
+   npm run dev
+   ```
